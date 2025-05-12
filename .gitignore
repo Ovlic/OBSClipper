@@ -1,0 +1,11 @@
+
+# Python
+__pycache__
+*.pyc
+
+# MacOS
+__MACOSX
+.DS_STORE
+
+# Other
+.env

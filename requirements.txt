@@ -1,0 +1,4 @@
+# description = "Saves users in voice chat with OBS replay buffer is saved and sends it in a channel."
+discord-py>=2.5.2,<3.0.0
+obsws-python>=1.7.1,<2.0.0
+git+https://github.com/cexen/py-simple-audio.git
