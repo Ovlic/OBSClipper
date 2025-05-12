@@ -1,8 +1,8 @@
 ---
 
-# 🎥 OBSClipper – Discord Voice Chat Clip Bot with OBS Integration
+# OBSClipper – Discord Voice Chat Clip Bot with OBS Integration
 
-OBSClipper is a Discord bot that listens for voice chat activity, interfaces with OBS to detect replay buffer saves, and sends clip messages to Discord—fully automated, context-aware, and permission-sensitive.
+OBSClipper is a Discord bot that listens for voice chat activity, interfaces with OBS to detect replay buffer saves, and sends clip messages to Discord.
 
 ---
 
@@ -21,10 +21,10 @@ OBSClipper is a Discord bot that listens for voice chat activity, interfaces wit
   Saves who was in the VC, what app was active, and when the clip was made.
 
 * **Configurable**
-  Has many settings, including playing a sound effect when a clip is captured and optional `.mkv` to `.mp4` conversion.
+  Has many settings, including playing a sound effect when a clip is captured and remux settings.
 
 * **Test Commands**
-  Includes `/get_vc_users`, `/upload_file`, `/kill_obs`, and `/search_for_user`
+  `/get_vc_users`, `/upload_file`, `/kill_obs`, and `/search_for_user`
 
 ---
 
