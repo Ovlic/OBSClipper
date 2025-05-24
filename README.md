@@ -1,7 +1,7 @@
 # OBSClipper – Discord Voice Chat Clip Bot with OBS Integration
 
 OBSClipper is a Discord bot that listens for voice chat activity, interfaces with OBS to detect replay buffer saves, and sends clip messages to Discord.
-
+<br><br><img src="images/clip_example.png" width="400">
 ---
 
 ## Features
@@ -74,10 +74,11 @@ python main.py
 
 1. When the main user joins a VC, recording starts.
 2. When OBS saves a replay buffer, the bot is notified.
-3. A contextual message is sent to a Discord channel.
+3. A contextual message is sent to a Discord channel:<br><img src="images/preupload.png" width="400">
 4. That message includes a **"Upload Clip"** button, usable only by the initiating user.
-5. Clicking the button sends the actual clip file.
-Note that the bot must be running on the device that is storing the clips.
+5. Clicking the button sends the actual clip file:<br><img src="images/postupload.png" width="400">
+
+**Note that the bot must be running on the device that is storing the clips.**
 
 ---
 
@@ -96,4 +97,3 @@ Uploading large media files directly when a replay is saved can be limiting and 
 * Update the original message after the clip is uploaded to include a link to the clip.
 * (POTENTIAL!) Add a command to delete clips from the database and the filesystem.
 * Add a command to search for clips by user, date, or other criteria.
-* Add images to the README
